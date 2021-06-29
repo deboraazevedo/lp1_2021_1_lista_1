@@ -15,4 +15,7 @@ void reverse( std::array< std::string, SIZE > & arr )
 
     while( first != last and first != --last )
         std::iter_swap( first++, last );
+        first++;
+        last--;
+
 }
